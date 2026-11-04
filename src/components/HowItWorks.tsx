@@ -50,9 +50,6 @@ function PhotoStage() {
         <StepChip className="right-0 top-[218px] xl:left-[376px] xl:right-auto xl:top-[350px]" index="02" label="Drink" Icon={DropIcon} />
         <StepChip className="left-1/2 top-[364px] -ml-[62px] xl:left-[150px] xl:top-[536px] xl:ml-0" index="03" label="Plug in" Icon={PlugIcon} />
       </div>
-      <figcaption className="mt-1.5 text-[13px] text-muted xl:absolute xl:inset-x-0 xl:top-[646px] xl:mt-0 xl:text-center">
-        Illustration of H006 with its accessories
-      </figcaption>
     </figure>
   );
 }
@@ -97,7 +94,6 @@ export function HowItWorks() {
         <div className="mt-14 lg:mt-24">
           <div className="mb-5 lg:mb-6 lg:flex lg:flex-wrap lg:items-baseline lg:justify-between lg:gap-6">
             <h3 className="m-0 mb-2 text-2xl font-light tracking-[-0.02em] lg:mb-0 lg:text-[28px]">H006 in operation</h3>
-            <p className="m-0 text-xs leading-normal text-muted lg:text-[13px]">Illustrative images.</p>
           </div>
           <ul className="m-0 grid list-none grid-cols-2 gap-3 p-0 lg:grid-cols-4 lg:gap-5">
             {gallery.map((img) => (

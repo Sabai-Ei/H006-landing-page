@@ -2,7 +2,7 @@ import { money, setLabel, site } from "@/config/site";
 import { Deco, Eyebrow, btnPrimary } from "./ui";
 
 export function PricingOffers() {
-  const { pricing, contact } = site;
+  const { pricing } = site;
   return (
     <section id="offer" aria-labelledby="offer-title" className="bg-mesh-panel relative overflow-hidden py-[72px] lg:py-[120px]">
       <Deco className="dot-grid edge-fade absolute inset-0" />
@@ -13,7 +13,7 @@ export function PricingOffers() {
             Choose your H006 set.
           </h2>
           <p className="m-0 text-[15px] text-muted lg:text-base">
-            Usual price <s>{money(pricing.usualPrice)}</s> per set. Singapore dollars.
+            Usual price <s>{money(pricing.usualPrice)}</s> per set.
           </p>
         </header>
         <ul className="m-0 mt-10 grid list-none gap-4 p-0 lg:mt-16 lg:grid-cols-3 lg:gap-6">
@@ -30,10 +30,6 @@ export function PricingOffers() {
             </li>
           ))}
         </ul>
-        <p className="m-0 mt-8 text-center text-[13px] text-muted">
-          Terms and conditions apply. Prices in Singapore dollars. Prefer to talk? Call{" "}
-          <a href={contact.phoneTel} className="font-medium text-ink underline">{contact.phoneDisplay}</a>
-        </p>
       </div>
     </section>
   );
