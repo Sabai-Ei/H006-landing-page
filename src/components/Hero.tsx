@@ -155,7 +155,6 @@ export function Hero() {
               );
             })}
           </ul>
-          <p className="absolute inset-x-0 top-[384px] m-0 text-center text-xs text-muted hero:top-[716px]">Images are for illustration only.</p>
         </div>
 
         {/* Mobile function highlights */}

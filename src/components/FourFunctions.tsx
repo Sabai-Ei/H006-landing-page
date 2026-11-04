@@ -1,4 +1,4 @@
-import { functions, overview } from "@/content/functions";
+import { functions } from "@/content/functions";
 import { functionIcons } from "./icons";
 import { DrinkIllustration, EarIllustration, EyesIllustration, InhaleIllustration } from "./FunctionIllustrations";
 import type { FunctionId } from "@/content/functions";
@@ -49,7 +49,6 @@ export function FourFunctions() {
           );
         })}
       </ul>
-      <p className="m-0 mt-5 text-xs leading-[1.6] text-muted lg:mt-7 lg:text-[13px]">{overview.footnote}</p>
     </>
   );
 }

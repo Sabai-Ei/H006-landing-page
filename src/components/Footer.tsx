@@ -36,7 +36,7 @@ export function Footer() {
         </div>
         <div className="mt-10 flex flex-col gap-3 border-t border-white/20 pt-6 text-xs leading-[1.6] text-white/70 lg:mt-14 lg:flex-row lg:justify-between lg:gap-8">
           <p className="m-0 max-w-[720px]">
-            H006 is a wellness product and is not intended to diagnose, treat, cure or prevent any disease. Product images are for illustration only.
+            H006 is a wellness product and is not intended to diagnose, treat, cure or prevent any disease.
           </p>
           <p className="m-0 whitespace-nowrap">Privacy policy · © WaterSource</p>
         </div>

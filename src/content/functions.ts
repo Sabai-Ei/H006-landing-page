@@ -62,7 +62,6 @@ export const overview = {
   title: "Four ways to use one bottle.",
   body: "The WaterSource H006 4-in-1 Hydrogen Generation Bottle combines hydrogen-rich drinking water with three accessory functions: nasal hydrogen inhalation, an ear accessory and an eye-mask accessory. Use it at home or on the go.",
   positioning: "One bottle, four ways to boost your well-being — anytime, anywhere.",
-  footnote: "Illustrations are simplified and not to scale.",
 } as const;
 
 export const steps = [
