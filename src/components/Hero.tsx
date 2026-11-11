@@ -73,8 +73,8 @@ export function Hero() {
             {site.tagline}
             <Deco className="h-0.5 w-5 rounded-sm bg-primary hero:hidden" />
           </div>
-          <div className="mt-7 flex flex-col gap-3 md:flex-row md:justify-center hero:mt-9 hero:justify-start">
-            <a href="#enquire" className={`${btnPrimary} h-[54px] text-base md:px-10 hero:h-14 hero:px-[38px]`}>
+          <div className="mt-7 flex flex-col gap-3 md:flex-row hero:mt-9">
+            <a href={site.contact.whatsappUrl} className={`${btnPrimary} h-[54px] text-base md:px-10 hero:h-14 hero:px-[38px]`}>
               Enquire Now
             </a>
             <a href="#modes" className={`${btnSecondary} h-[54px] text-base md:px-9 hero:h-14 hero:px-8`}>
@@ -93,7 +93,7 @@ export function Hero() {
           <Deco className="absolute hidden size-[18px] rounded-full bg-primary hero:left-[602px] hero:top-[70px] hero:block" />
           <Deco className="floor-shadow absolute left-[125px] top-[338px] h-5 w-[140px] rounded-full hero:left-[222px] hero:top-[612px] hero:h-9 hero:w-[300px]" />
           <Image
-            src="/images/h006-bottle-cutout.png"
+            src="/images/h006-silver-hero.webp"
             alt="WaterSource H006 hydrogen generation bottle with a rising stream of bubbles in the water chamber"
             width={362}
             height={1090}

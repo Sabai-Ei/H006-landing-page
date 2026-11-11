@@ -34,7 +34,7 @@ function PhotoStage() {
         <Deco className="absolute left-1/2 top-12 -ml-[126px] h-[350px] w-[280px] rounded-[140px_140px_24px_24px] border-[1.5px] border-primary xl:left-[62px] xl:top-[62px] xl:ml-0 xl:h-[540px] xl:w-[460px] xl:rounded-[230px_230px_32px_32px]" />
         <div className="absolute left-1/2 top-[34px] -ml-[140px] h-[350px] w-[280px] overflow-hidden rounded-[140px_140px_24px_24px] bg-secondary shadow-[0_30px_60px_-30px_rgba(14,26,34,0.55)] xl:left-10 xl:top-10 xl:ml-0 xl:h-[540px] xl:w-[460px] xl:rounded-[230px_230px_32px_32px] xl:shadow-[0_40px_80px_-36px_rgba(14,26,34,0.55)]">
           <Image
-            src="/images/h006-woman-with-accessories.jpg"
+            src="/images/h006-silver-with-accessories.webp"
             alt="Woman wearing the nasal cannula and eye-mask accessory connected by tubing to the H006 unit on a marble ledge"
             fill
             sizes="(min-width: 1024px) 460px, 280px"
@@ -97,7 +97,7 @@ export function HowItWorks() {
           </div>
           <ul className="m-0 grid list-none grid-cols-2 gap-3 p-0 lg:grid-cols-4 lg:gap-5">
             {gallery.map((img) => (
-              <li key={img.src} className="relative aspect-[4/5] overflow-hidden rounded-[18px] bg-secondary lg:rounded-3xl">
+              <li key={img.src} className="relative aspect-[2/3] overflow-hidden rounded-[18px] bg-secondary lg:rounded-3xl">
                 <Image src={img.src} alt={img.alt} fill sizes="(min-width: 1024px) 296px, 50vw" className="object-cover" />
               </li>
             ))}

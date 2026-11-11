@@ -27,6 +27,7 @@ export const site = {
     country: "SG",
   },
   contact: {
+    whatsappUrl: `https://wa.me/6588391764?text=${encodeURIComponent("Hi Water Source, I am interested in the H006 product.")}`,
     phoneDisplay: "+65 6933 8471",
     phoneTel: "tel:+6569338471",
     phoneE164: "+6569338471",

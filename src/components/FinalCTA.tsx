@@ -16,7 +16,7 @@ export function FinalCTA() {
           Ask about availability, delivery and warranty. 1 set {money(o1!.price)}, 2 sets {money(o2!.price)}, 3 sets {money(o3!.price)}.
         </p>
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <a href={contact.phoneTel} className={`${btnPrimary} h-[54px] w-full px-9 text-base sm:w-auto`}>Enquire Now</a>
+          <a href={site.contact.whatsappUrl} className={`${btnPrimary} h-[54px] w-full px-9 text-base sm:w-auto`}>Enquire Now</a>
           <a href={contact.phoneTel} className={`${btnSecondary} h-[54px] w-full px-9 text-base sm:w-auto`}>Call {contact.phoneDisplay}</a>
         </div>
       </div>

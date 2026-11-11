@@ -25,7 +25,7 @@ export function Header() {
         ))}
       </nav>
       <div className="flex items-center gap-2">
-        <a href="#enquire" className={`${btnPrimary} h-11 px-5 text-sm !font-medium lg:px-6`}>
+        <a href={site.contact.whatsappUrl} className={`${btnPrimary} h-11 px-5 text-sm !font-medium lg:px-6`}>
           Enquire Now
         </a>
         <MobileMenu items={primaryNav} phoneTel={site.contact.phoneTel} phoneDisplay={site.contact.phoneDisplay} />

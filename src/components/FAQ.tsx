@@ -16,7 +16,7 @@ export function FAQ() {
             Can&apos;t find what you need? Call us on{" "}
             <a href={site.contact.phoneTel} className="font-medium text-ink underline">{site.contact.phoneDisplay}</a>.
           </p>
-          <a href="#enquire" className={`${btnPrimary} h-12 px-7 text-[15px]`}>Enquire Now</a>
+          <a href={site.contact.whatsappUrl} className={`${btnPrimary} h-12 px-7 text-[15px]`}>Enquire Now</a>
         </div>
         <div className="border-t border-ink/[0.14]">
           {faqs.map((f, i) => (

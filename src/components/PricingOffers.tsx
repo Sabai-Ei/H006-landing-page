@@ -24,7 +24,7 @@ export function PricingOffers() {
               <p className="m-0 mb-6 border-t border-ink/[0.12] pt-4 text-sm text-muted lg:min-h-12">
                 {o.sets} × H006 4-in-1 Hydrogen Wellness Solution
               </p>
-              <a href="#enquire" className={`${btnPrimary} h-[52px] w-full text-[15px]`}>
+              <a href={site.contact.whatsappUrl} className={`${btnPrimary} h-[52px] w-full text-[15px]`}>
                 Enquire Now
               </a>
             </li>
